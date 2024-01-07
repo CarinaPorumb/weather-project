@@ -1,0 +1,84 @@
+:root {
+	--purple-colour: rgba(75, 76, 132, 1);
+	--light-pink-colour: rgba(159, 98, 111, 1);
+}
+
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+	background-color: var(--purple-colour);
+	border-color: var(--purple-colour);
+}
+
+.text-primary {
+	color: #101d42 !important;
+}
+
+.text-secondary {
+	color: #fbb44c !important;
+}
+
+.text-light {
+	color: #eaeaea !important;
+}
+
+.bg-primary {
+	background-color: var(--light-pink-colour);
+	background: linear-gradient(0deg, var(--light-pink-colour) 0%, var(--purple-colour) 100%) !important;
+}
+
+.bg-secondary {
+	background-color: #ebdfe2 !important;
+}
+
+.bg-dark {
+	background: linear-gradient(0deg, rgba(45, 45, 79, 1) 0%, var(--purple-colour) 100%) !important;
+}
+
+h1,
+h2,
+h3 {
+	font-weight: bold;
+}
+
+body {
+	font-family: "Poppins", sans-serif;
+
+	display: flex;
+	flex-direction: column;
+
+	min-height: 100vh;
+}
+
+main {
+	flex-grow: 1;
+}
+
+header {
+	height: 30vh;
+}
+
+.weather-forecast-box > * {
+  flex: 1;
+}
+
+
+@media (max-width: 576px) {
+  .current-weather {
+    text-align: center;
+  }
+
+  .current-weather img {
+    width: 75px;
+    height: auto;
+  }
+
+  .weather-forecast-box img {
+    width: 50px;
+    height: auto;
+  }
+
+  .weather-forecast-box .real-feel {
+    display: none;
+  }
+}
