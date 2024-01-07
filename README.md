@@ -2,14 +2,14 @@
 
 ## Description
 
-**Weather Wise** is a simple application for displaying current weather and a 5-day forecast in multiple cities. It utilizes weather data provided by the free API from [OpenWeatherMap](https://home.openweathermap.org/), allowing you to stay informed about weather conditions in various locations.
+**Weather Wise** is a simple application for displaying current weather and a 5-day forecast in multiple cities. It uses weather data provided by the free API from [OpenWeatherMap](https://home.openweathermap.org/).
 
 ## Technologies Used
 
-- HTML
-- CSS
-- Bootstrap
-- JavaScript
+-   HTML
+-   CSS
+-   Bootstrap
+-   JavaScript
 
 ## How to Use
 
@@ -19,13 +19,15 @@
 
 ## Features
 
-- Displays current weather for multiple cities.
-- Provides weather forecast for the next 5 days.
-- Simple and user-friendly interface for an easy user experience.
+-   Displays current weather for multiple cities.
+-   Provides weather forecast for the next 5 days.
+-   Allows users to change the current city.
+-   Stores data persistently using localStorage.
+-   Simple and user-friendly interface for an easy user experience.
 
 ## APIs
 
-- [OpenWeatherMap API](https://home.openweathermap.org/)
+-   [OpenWeatherMap API](https://home.openweathermap.org/)
 
 ---
 
