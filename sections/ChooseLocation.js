@@ -1,6 +1,11 @@
 let oradeaButton = document.querySelector(".oradea");
 let timisoaraButton = document.querySelector(".timisoara");
 let bucharestButton = document.querySelector(".bucharest");
+let sibiuButton = document.querySelector(".sibiu");
+let aradButton = document.querySelector(".arad");
+let clujNapocaButton = document.querySelector(".cluj-napoca");
+let brasovButton = document.querySelector(".brasov");
+
 let currentCity = document.querySelector(".current-city");
 
 function updateCityWeather(city) {
@@ -22,4 +27,20 @@ timisoaraButton.addEventListener("click", function () {
 
 bucharestButton.addEventListener("click", function () {
 	updateCityWeather("București");
+});
+
+sibiuButton.addEventListener("click", function () {
+	updateCityWeather("Sibiu");
+});
+
+aradButton.addEventListener("click", function () {
+	updateCityWeather("Arad");
+});
+
+clujNapocaButton.addEventListener("click", function () {
+	updateCityWeather("Cluj-Napoca");
+});
+
+brasovButton.addEventListener("click", function () {
+	updateCityWeather("Brașov");
 });
